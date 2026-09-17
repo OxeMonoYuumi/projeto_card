@@ -1,3 +1,9 @@
+body {
+    background-color: slategrey;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Navbar */
 .navbar {
     width: 100%;
     padding: 0 20px;
@@ -12,27 +18,51 @@
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
     padding: 0 20px;
     color: #ffffff;
 }
-body {
-    background-color: slategrey;
-}
+/* Fim navbar */
 
+/* Formulario */
+.base{
+    display: flex;
+    justify-content: center;
+}
 .forms{
+    margin-top: 20px;
     background-color: #ffffff;
-    width: 50%;
+    width: 40%;
     padding: 50px;
     display: flex;
+    justify-content: center;
+    border-radius: 10px;
 }
-
+.item-forms{
+    text-align: center;
+    width: 50%;
+}
+.text-forms{
+    text-align: start;
+    font-weight: bold;
+}
+.t-forms{
+    padding: 10px;
+}
+.input-forms{
+    border-radius: 5px;
+    border-color: #6464644b;
+    height: 25px;
+    width: 100%;
+}
 .button{
     border-radius: 10px;
     border: 1px;
     background-color: dodgerblue;
     color: #ffffff;
-    width: 15%;
+    width: 50%;
     font-size: 15px;
     font-weight: bold;
+    height: 50px;
+    margin-top: 40px;
 }
+/* Fim formulario */
